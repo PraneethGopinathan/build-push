@@ -13,7 +13,7 @@ variable "environment"{
 variable "name" {
     description = "Name to use for resource"
     type = string
-    default = "hello-world"
+    default = "wordpress"
 }
 
 variable "organization" {
