@@ -25,6 +25,6 @@ workflows:
           no-output-timeout: 20m
           path: .
           profile-name: default
-          repo: hello-world
+          repo: wordpress
           skip-when-tags-exist: false
           tag: 'latest,$CIRCLE_SHA1'
